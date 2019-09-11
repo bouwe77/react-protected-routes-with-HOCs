@@ -22,11 +22,11 @@ class Login extends Component {
         <form onSubmit={this.handleSubmit}>
           <div>
             Username
-            <input type="text" value="bouwe" />
+            <input type="text" />
           </div>
           <div>
             Password
-            <input type="password" value="password" />
+            <input type="password" />
           </div>
           <div>
             <button type="submit">OK</button>
